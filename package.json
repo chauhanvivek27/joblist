@@ -1,0 +1,40 @@
+{
+  "name": "jobs-ssr-listing",
+  "version": "1.0.0",
+  "description": "Job Listing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "babel": "babel src -d dist",
+    "pack": "webpack --mode=production --config webpack.config.js",
+    "build": "npm run pack & npm run babel"
+  },
+  "author": "Vivek Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "css-loader": "^3.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^1.0.1"
+  }
+}

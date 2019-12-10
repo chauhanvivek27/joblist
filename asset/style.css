@@ -1,0 +1,45 @@
+
+.content {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+
+.content {
+    background: whitesmoke;
+  }
+
+.wrap-inner {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.job-card {
+  display: flex;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.job-desc {  
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: auto;
+}
+
+.job-card a {
+  color: black;
+}
+
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  height: 100%;
+
+}
