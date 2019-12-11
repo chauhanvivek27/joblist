@@ -1,6 +1,6 @@
 import React , { Component } from 'react'
 import { connect } from 'react-redux';
-import './jobcard.scss';
+
 
 
 class JobCard extends Component {
